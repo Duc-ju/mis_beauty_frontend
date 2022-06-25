@@ -1,0 +1,199 @@
+.root {
+    overflow: hidden;
+}
+
+.slider {
+
+}
+
+.sliderItem {
+    position: relative;
+    height: 400px;
+}
+
+.sliderItem img {
+    position: absolute;
+    width: 100%;
+    top: -100%;
+}
+
+.section.bg-1 {
+    padding: 70px 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.item {
+
+}
+
+.section .heading {
+    width: 100%;
+}
+
+.section .heading p {
+    line-height: 35px;
+    color: #464646;
+    margin: 0 0 50px 0;
+    padding: 0 5%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.section.bg-1 h2 {
+    text-align: center;
+}
+
+.section .heading h2 {
+    font-size: 40px;
+    color: #38C2DC;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    line-height: 147.1%;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xl-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.section.bg-1 .item {
+    padding: 0 30px;
+}
+
+.section.bg-1.bg-1 .item a {
+    display: block;
+    border: 2px solid #F7D3C6;
+    background-color: #fff;
+    color: #007bff;
+}
+
+.section.bg-1 .item.item-2 {
+    margin: 60px 0 0 0;
+}
+
+.section.bg-1 .item.item-2 a {
+    border-radius: 0px 20px 0px 0px;
+}
+
+.section img {
+    width: 100%;
+}
+
+.section.bg-1 .item a h3 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #38C2DC;
+    margin: 0;
+    text-align: center;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+
+.section.bg-2 .item {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 0px 0px 20px 0px;
+}
+
+.section.bg-2 {
+    padding-bottom: 16px;
+}
+
+.section.bg-2 .bg {
+    background: url(https://an-spa.vn/frontend/img/spa2/dich-vu.jpg) center center no-repeat;
+}
+
+.col-lg-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-xl-7 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.col-xl-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.section .heading span.line {
+    width: 100px;
+    height: 1px;
+    background-color: #38C2DC;
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+.section.bg-2 .heading p {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    text-align: left;
+}
+
+.section.bg-2 .button {
+    background: #38C2DC;
+    border-radius: 30px;
+    height: 50px;
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 50px;
+    width: 320px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.section.bg-4 .heading h2 {
+    text-align: center;
+    margin: 30px 0 20px 0;
+    font-size: 30px;
+}
+
+.slider2 {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.slider2Item {
+    padding: 16px;
+}

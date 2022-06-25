@@ -7,6 +7,9 @@ import Service from '../../components/Service/service';
 import MyAccount from '../MyAccount/myAccount';
 import Advise from '../../components/Advise';
 import Register from '../../components/Register';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Model from '../../components/Model';
 
 function App() {
     return (
@@ -14,6 +17,7 @@ function App() {
             <Suspense fallback={<>Loading</>}>
                 <BrowserRouter>
                     <ScrollToTop>
+                        <Header />
                         <Routes>
                             <Route path="/*" element={<Home />} />
                             <Route path="/login" element={<Login />} />
@@ -28,6 +32,8 @@ function App() {
                             />
                             <Route path="/advise" element={<Advise />} />
                         </Routes>
+                        <Footer />
+                        <Model />
                     </ScrollToTop>
                 </BrowserRouter>
             </Suspense>

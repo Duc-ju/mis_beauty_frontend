@@ -1,1 +1,25 @@
 @import "normalize.css";
+
+:root {
+    --navlink-hover-color: #dd305e;
+    --text-base-color: #292929;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--text-base-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "icomoon";
+    src: local("icomoon"), url("./static/icomoon.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
