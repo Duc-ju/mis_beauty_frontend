@@ -1,0 +1,81 @@
+.root {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.container {
+}
+
+.root h2 {
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 147.1%;
+    text-align: center;
+    background-color: var(--title-color);
+    padding: 6px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding: 16px 24px 16px 24px;
+}
+
+.root button {
+    background: var(--button-color);
+    border-radius: 5px;
+    height: 42px;
+    padding: 0 12px;
+    color: #fff;
+    line-height: 42px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin: 12px auto 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.root .loading:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 5px solid white;
+    border-top-color: darkslategrey;
+    animation: loading 0.5s linear infinite;
+}
+
+.root button:hover {
+    background-color: var(--button-hover-color);
+}
+
+.register {
+    margin: auto;
+    font-size: 13px;
+}
+
+.registerButton {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #38C2DC;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

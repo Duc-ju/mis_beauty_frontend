@@ -3,6 +3,7 @@ import classes from './home.module.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { Link } from 'react-router-dom';
 
 function Home(props) {
     const settings1 = {
@@ -14,11 +15,11 @@ function Home(props) {
     };
     const settings2 = {
         infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
         dots: false
     };
     return (
@@ -139,9 +140,9 @@ function Home(props) {
                                     hài lòng, sức khoẻ và sắc đẹp của khách
                                     hàng.
                                 </p>
-                                <a className={classes.button} href="#">
+                                <Link className={classes.button} to="/service">
                                     Đặt lịch ngay
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>

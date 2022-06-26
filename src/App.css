@@ -3,6 +3,9 @@
 :root {
     --navlink-hover-color: #dd305e;
     --text-base-color: #292929;
+    --button-color: #38C2DC;
+    --button-hover-color: #00AAAA;
+    --title-color: #38C2DC;
 }
 
 * {
@@ -22,4 +25,31 @@ a {
     src: local("icomoon"), url("./static/icomoon.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
+}
+
+button {
+    border: none;
+    outline: none;
+    transition: background 0.2s ease-in;
+}
+
+.button {
+    background: var(--button-color);
+    border-radius: 5px;
+    height: 50px;
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 50px;
+    width: 320px;
+    text-align: center;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--button-hover-color);
 }

@@ -1,0 +1,71 @@
+.root {
+
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.root .nav {
+    border-bottom: 1px solid #D7D7D7;
+    padding: 30px 0;
+    margin: 0 -15px;
+    display: block;
+}
+
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+.dichvu_ct .nav li {
+    width: 100%;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.root .nav li span {
+    display: block;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #38C2DC;
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    position: relative;
+    font-size: 20px;
+}
+
+.root .nav li span::after {
+    content: "\e90d";
+    font-family: 'icomoon' !important;
+    position: absolute;
+    right: 15px;
+    font-size: 10px;
+    top: 7px;
+}
+
+.root .nav li span.active, .root .nav li span:hover {
+    border: none;
+    color: #38C2DC;
+    background-color: #F7EFEC;
+    cursor: pointer;
+}

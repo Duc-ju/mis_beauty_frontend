@@ -1,40 +1,51 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ScrollToTop from '../../router/ScrollToTop';
 import Home from '../../components/Home';
-import Login from '../../components/Login';
 import Service from '../../components/Service/service';
 import MyAccount from '../MyAccount/myAccount';
 import Advise from '../../components/Advise';
-import Register from '../../components/Register';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import Model from '../../components/Model';
+import Modal from '../../components/Modal';
+import ModalProvider from '../../context/ModalContext';
+import UserProvider from '../../context/UserContext';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
+    useEffect(() => {
+        document.title = 'Hệ thống chăm sóc sắc đẹp';
+    }, []);
     return (
         <>
             <Suspense fallback={<>Loading</>}>
                 <BrowserRouter>
-                    <ScrollToTop>
-                        <Header />
-                        <Routes>
-                            <Route path="/*" element={<Home />} />
-                            <Route path="/login" element={<Login />} />
-                            <Route path="/register" element={<Register />} />
-                            <Route
-                                path="/service/:type"
-                                element={<Service />}
-                            />
-                            <Route
-                                path="/my-account/*"
-                                element={<MyAccount />}
-                            />
-                            <Route path="/advise" element={<Advise />} />
-                        </Routes>
-                        <Footer />
-                        <Model />
-                    </ScrollToTop>
+                    <UserProvider>
+                        <ModalProvider>
+                            <ScrollToTop>
+                                <Header />
+                                <Routes>
+                                    <Route path="/*" element={<Home />} />
+                                    <Route
+                                        path="/service"
+                                        element={<Service />}
+                                    />
+                                    <Route
+                                        path="/my-account/*"
+                                        element={<MyAccount />}
+                                    />
+                                    <Route
+                                        path="/advise/:type"
+                                        element={<Advise />}
+                                    />
+                                </Routes>
+                                <Footer />
+                                <Modal />
+                                <ToastContainer />
+                            </ScrollToTop>
+                        </ModalProvider>
+                    </UserProvider>
                 </BrowserRouter>
             </Suspense>
         </>

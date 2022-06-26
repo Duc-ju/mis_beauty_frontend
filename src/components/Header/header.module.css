@@ -30,6 +30,7 @@
     padding: 0;
 }
 
+.navItem span,
 .navItem a {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     padding: 0 20px;
@@ -44,8 +45,15 @@
     font-size: 13px;
     text-decoration: none;
     display: block;
+    cursor: pointer;
 }
 
+.navItem.active a,
+.navItem:not(.displayName) span:hover,
 .navItem a:hover {
     color: var(--navlink-hover-color);
+}
+
+.displayName span {
+    cursor: default;
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './myServices.module.css';
+import classes from './bookingServices.module.css';
 
-function MyServices(props) {
+function BookingServices(props) {
     return (
         <section className={classes.root}>
             <div className={classes.service}>
@@ -58,4 +58,4 @@ function MyServices(props) {
     );
 }
 
-export default MyServices;
+export default BookingServices;
