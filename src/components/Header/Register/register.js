@@ -23,11 +23,12 @@ function Register(props) {
         e.preventDefault();
         setIsFetching(true);
         userApi
-            .register({ username, password, email, displayName })
+            .register({ username, password, email, displayName, phone })
             .then((user) => {
                 console.log(user);
                 setIsFetching(false);
                 setUser(user);
+                window.localStorage.setItem('user', JSON.stringify(user));
                 setModal();
                 toast.success('Đăng kí tài khoản thành công');
             })

@@ -36,6 +36,10 @@ function Login() {
                         setUser(user);
                         toast.success('Đăng nhập thành công');
                         console.log(user);
+                        window.localStorage.setItem(
+                            'user',
+                            JSON.stringify(user)
+                        );
                     })
                     .catch((e) => {
                         throw e;

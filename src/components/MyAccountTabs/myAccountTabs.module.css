@@ -42,7 +42,7 @@
     border-top-right-radius: 0.25rem;
 }
 
-.root .nav li span {
+.root .nav li a {
     display: block;
     line-height: 60px;
     text-transform: uppercase;
@@ -54,7 +54,7 @@
     font-size: 20px;
 }
 
-.root .nav li span::after {
+.root .nav li a::after {
     content: "\e90d";
     font-family: 'icomoon' !important;
     position: absolute;
@@ -63,7 +63,7 @@
     top: 7px;
 }
 
-.root .nav li span.active, .root .nav li span:hover {
+.root .nav li.active, .root .nav li a:hover {
     border: none;
     color: #38C2DC;
     background-color: #F7EFEC;

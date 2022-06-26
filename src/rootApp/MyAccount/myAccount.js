@@ -1,12 +1,22 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { useContext, useEffect } from 'react';
+import { Route, Routes, useNavigate } from 'react-router-dom';
 import BookingServices from '../../components/BookingServices';
 import Info from '../../components/Info';
 import classes from './myAccount.module.css';
 import MyAccountTabs from '../../components/MyAccountTabs';
 import MyServices from '../../components/MyServices';
+import { UserContext } from '../../context/UserContext';
 
 function MyAccount() {
+    const { user } = useContext(UserContext);
+    const navigate = useNavigate();
+    useEffect(() => {
+        if (!user) {
+            navigate('/');
+        }
+    }, [user]);
+    if (!user) return null;
+
     return (
         <section className={classes.root}>
             <div className={classes.container}>

@@ -10,7 +10,7 @@
     background: #fff;
     border-radius: 4px;
     overflow: hidden;
-    border: 1px solid var(--title-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .service:hover {
@@ -56,7 +56,7 @@
     outline: none;
     border: none;
     cursor: pointer;
-    margin: auto;
+    margin: 16px auto 0;
 }
 
 .button:hover {

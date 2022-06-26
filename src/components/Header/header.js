@@ -22,6 +22,7 @@ function Header(props) {
     const handleLogout = () => {
         setUser();
         toast.success('Đã đăng xuất');
+        window.localStorage.removeItem('user');
     };
     return (
         <section className={classes.root}>
@@ -67,7 +68,9 @@ function Header(props) {
                                         : ''
                                 }`}
                             >
-                                <Link to={'/my-account'}>Quản lý cá nhân</Link>
+                                <Link to={'/my-account/services'}>
+                                    Quản lý cá nhân
+                                </Link>
                             </li>
                             <li className={classes.navItem}>
                                 <span onClick={handleLogout}>Đăng xuất</span>
