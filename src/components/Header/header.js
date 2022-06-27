@@ -7,6 +7,7 @@ import Register from './Register';
 import { UserContext } from '../../context/UserContext';
 import { toast } from 'react-toastify';
 import { useLocation } from 'react-router';
+import logo from '../../static/logo.png';
 
 function Header(props) {
     const { setModal } = useContext(ModalContext);
@@ -29,12 +30,7 @@ function Header(props) {
             <div className={classes.container}>
                 <div className={classes.logo}>
                     <Link to={'/'}>
-                        <img
-                            alt={'logo-image'}
-                            src={
-                                'https://trangbeautysalon.vn/wp-content/uploads/2020/01/logo-trang.svg'
-                            }
-                        />
+                        <img alt={'logo-image'} src={logo} />
                     </Link>
                 </div>
                 <ul className={classes.navList}>
@@ -68,7 +64,7 @@ function Header(props) {
                                         : ''
                                 }`}
                             >
-                                <Link to={'/my-account/services'}>
+                                <Link to={'/my-account/services/booking'}>
                                     Quản lý cá nhân
                                 </Link>
                             </li>

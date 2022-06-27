@@ -127,8 +127,16 @@
     padding-bottom: 16px;
 }
 
-.section.bg-2 .bg {
-    background: url(https://an-spa.vn/frontend/img/spa2/dich-vu.jpg) center center no-repeat;
+.section .bg-nail {
+    background: url(https://tranglamdep.net/wp-content/uploads/2020/11/cham-soc-mong-sau-khi-lam-nail-4.jpg) center center no-repeat;
+}
+
+.section .bg-hair {
+    background: url(https://britishm.vn/wp-content/uploads/2019/08/mach-ban-cac-kinh-nghiem-di-lam-toc-tai-cac-salon-1.jpg) center center no-repeat;
+}
+
+.section .bg-skin {
+    background: url(https://drvitamin.vn/wp-content/uploads/2021/05/cham-soc-da-mat-spa-3.jpg) center center no-repeat;
 }
 
 .col-lg-12 {

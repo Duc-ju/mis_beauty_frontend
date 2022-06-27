@@ -23,30 +23,27 @@ function Service(props) {
                 <div className={classes.container}>
                     <div className={classes.row}>
                         <div
-                            className={`${classes['col-xl-7']} ${classes['col-lg-12']} ${classes.bg}`}
+                            className={`${classes['col-xl-7']} ${classes['col-lg-12']} ${classes['bg-nail']}`}
                         />
                         <div
                             className={`${classes['col-xl-5']} ${classes['col-lg-12']}`}
                         >
                             <div className={classes.heading}>
-                                <h2>Trải nghiệm dịch vụ</h2>
+                                <h2>Chăm sóc móng tay</h2>
                                 <span className={classes.line} />
                                 <p>
                                     <span
                                         style={{ textTransform: 'uppercase' }}
                                     >
-                                        Chào mừng bạn đến với An’s Spa
+                                        Chào mừng bạn đến với Mis Beauty
                                     </span>
                                     <br />
-                                    Với các bài massage ứng dụng khí công và day
-                                    ấn huyệt, đặc biệt là massage đầu có 1 không
-                                    2 tại Việt Nam, được nghiên cứu bởi chuyên
-                                    gia trên 25 năm kinh nghiệm trong ngành,
-                                    An’s Spa sẽ đáp ứng đa dạng nhu cầu của bạn
-                                    từ thư giãn đến điều trị bệnh lý. Đội ngũ
-                                    của An’s Spa luôn tận tâm, hết lòng vì sự
-                                    hài lòng, sức khoẻ và sắc đẹp của khách
-                                    hàng.
+                                    Không giống như làm nail tại nhà, bạn sẽ
+                                    được chăm sóc móng một cách tận tình với
+                                    những loại sơn chất lượng ở các cơ sở làm
+                                    đẹp uy tín. Tại Mis Beauty, quy trình làm
+                                    móng thông thường sẽ diễn ra trong 7 bước cơ
+                                    bản là bạn đã có được một bộ móng xinh.
                                 </p>
                                 <button
                                     className={classes.button}
@@ -65,30 +62,31 @@ function Service(props) {
                 <div className={classes.container}>
                     <div className={classes.row}>
                         <div
-                            className={`${classes['col-xl-7']} ${classes['col-lg-12']} ${classes.bg}`}
+                            className={`${classes['col-xl-7']} ${classes['col-lg-12']} ${classes['bg-hair']}`}
                         />
                         <div
                             className={`${classes['col-xl-5']} ${classes['col-lg-12']}`}
                         >
                             <div className={classes.heading}>
-                                <h2>Trải nghiệm dịch vụ</h2>
+                                <h2>Chăm sóc tóc</h2>
                                 <span className={classes.line} />
                                 <p>
                                     <span
                                         style={{ textTransform: 'uppercase' }}
                                     >
-                                        Chào mừng bạn đến với An’s Spa
+                                        Chào mừng bạn đến với Mis Beauty
                                     </span>
                                     <br />
-                                    Với các bài massage ứng dụng khí công và day
-                                    ấn huyệt, đặc biệt là massage đầu có 1 không
-                                    2 tại Việt Nam, được nghiên cứu bởi chuyên
-                                    gia trên 25 năm kinh nghiệm trong ngành,
-                                    An’s Spa sẽ đáp ứng đa dạng nhu cầu của bạn
-                                    từ thư giãn đến điều trị bệnh lý. Đội ngũ
-                                    của An’s Spa luôn tận tâm, hết lòng vì sự
-                                    hài lòng, sức khoẻ và sắc đẹp của khách
-                                    hàng.
+                                    Muốn thay đổi phong cách, thử những kiểu tóc
+                                    mới, Mis Beauty Salon sẽ là nơi bạn có thể
+                                    gửi gắm niềm tin của mình. Trong suốt nhiều
+                                    năm hoạt động, Mis Beauty Salon đã trở thành
+                                    cái tên quen thuộc của nhiều khách hàng yêu
+                                    thích phong cách nữ tính. Không chỉ được
+                                    đánh giá cao về chất lượng tạo mẫu tóc, 1900
+                                    Hair Salon còn nhận được nhiều lời khen bởi
+                                    dịch vụ chăm sóc khách hàng chuyên nghiệp và
+                                    nhiệt tình.
                                 </p>
                                 <button
                                     className={classes.button}
@@ -105,30 +103,29 @@ function Service(props) {
                 <div className={classes.container}>
                     <div className={classes.row}>
                         <div
-                            className={`${classes['col-xl-7']} ${classes['col-lg-12']} ${classes.bg}`}
+                            className={`${classes['col-xl-7']} ${classes['col-lg-12']} ${classes['bg-skin']}`}
                         />
                         <div
                             className={`${classes['col-xl-5']} ${classes['col-lg-12']}`}
                         >
                             <div className={classes.heading}>
-                                <h2>Trải nghiệm dịch vụ</h2>
+                                <h2>Chăm sóc da</h2>
                                 <span className={classes.line} />
                                 <p>
                                     <span
                                         style={{ textTransform: 'uppercase' }}
                                     >
-                                        Chào mừng bạn đến với An’s Spa
+                                        Chào mừng bạn đến với Mis Beauty
                                     </span>
                                     <br />
-                                    Với các bài massage ứng dụng khí công và day
-                                    ấn huyệt, đặc biệt là massage đầu có 1 không
-                                    2 tại Việt Nam, được nghiên cứu bởi chuyên
-                                    gia trên 25 năm kinh nghiệm trong ngành,
-                                    An’s Spa sẽ đáp ứng đa dạng nhu cầu của bạn
-                                    từ thư giãn đến điều trị bệnh lý. Đội ngũ
-                                    của An’s Spa luôn tận tâm, hết lòng vì sự
-                                    hài lòng, sức khoẻ và sắc đẹp của khách
-                                    hàng.
+                                    Liệu trình chăm sóc da chuyên sâu Perfect
+                                    Skin bao gồm nhiều bước: Tẩy trang, soi da,
+                                    massage; detox da; đào thải độc tố; đắp mặt
+                                    nạ; massage dưỡng chất… Toàn bộ quá trình
+                                    chăm sóc da sẽ giúp khách hàng thư giãn,
+                                    thoải mái sau những ngày dài căng thẳng. Làn
+                                    da sau khi trải nghiệm liệu trình sẽ nhận
+                                    thấy được sự khác biệt rõ rệt.
                                 </p>
                                 <button
                                     className={classes.button}

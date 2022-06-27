@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './footer.module.css';
+import logoReverse from '../../static/logo-reverse.png';
 
 function Footer(props) {
     return (
@@ -11,23 +12,19 @@ function Footer(props) {
                             className={`${classes['col-xl-3']} ${classes.item} ${classes['col-lg-6']}`}
                         >
                             <a className={classes.logo_footer} href="/">
-                                <img
-                                    src="https://an-spa.vn/frontend/img/logo.png"
-                                    alt=""
-                                />
+                                <img src={logoReverse} alt="" />
                             </a>
                             <p>
-                                Spa massage ấn huyệt trị liệu ứng dụng khí công
-                                và y học cổ truyền.
+                                Dịch vụ làm nail. làm tóc và chăm sóc da chuyên
+                                sâu.
                             </p>
                             <p>
-                                - AN’s Spa: 18Bis/12 Nguyễn Thị Minh Khai,
-                                Phường Đa Kao, Quận 1, TP. HCM
+                                Mis Beauty, số 56, Tả Thanh Oai, Thanh Trì, Hà
+                                Nội
                             </p>
                             <p>
-                                - AN’s Spa Premium: Số 30 đường số 8 - Khu đô
-                                thị Hà Đô Centrosa (số 200 đường 3 tháng 2),
-                                phường 12, Quận 10,TP. HCM
+                                - Mis Beauty Premium: số 56, Tả Thanh Oai, Thanh
+                                Trì, Hà Nội
                             </p>
                         </div>
                         <div
@@ -131,7 +128,7 @@ function Footer(props) {
                 <div className={classes.container}>
                     <div className={classes.row}>
                         <div className={classes['col-lg-6']}>
-                            <p>@ 2020 An Spa All Right Reserved</p>
+                            <p>@ 2020 Mis Beauty All Right Reserved</p>
                         </div>
                         <div className={classes['col-lg-6']}>
                             <img

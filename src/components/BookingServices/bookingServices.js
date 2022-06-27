@@ -50,11 +50,20 @@ function BookingServices(props) {
                                 Dịch vụ đăng kí
                             </span>
                             <span className={classes.value}>
-                                {bookingService.services.map((service) => (
-                                    <span key={service.value}>
-                                        {service.label},
-                                    </span>
-                                ))}
+                                {bookingService.services.map(
+                                    (service, index) => (
+                                        <span
+                                            key={service.value}
+                                            key={service.value}
+                                        >
+                                            {service.label}
+                                            {index !==
+                                            bookingService.services.length - 1
+                                                ? ', '
+                                                : ''}
+                                        </span>
+                                    )
+                                )}
                             </span>
                         </li>
                     </ul>

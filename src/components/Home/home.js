@@ -29,28 +29,14 @@ function Home(props) {
                     <div className={classes.sliderItem}>
                         <img
                             src={
-                                'https://an-spa.vn/images/slider/foot-massage-5-vi1616990600.jpg'
+                                'https://timchohoc.com/wp-content/uploads/2021/03/Article-Cover_3_2_-_1440x1080-3-1.jpg'
                             }
                         />
                     </div>
                     <div className={classes.sliderItem}>
                         <img
                             src={
-                                'https://an-spa.vn/images/slider/foot-massage-5-vi1616990600.jpg'
-                            }
-                        />
-                    </div>
-                    <div className={classes.sliderItem}>
-                        <img
-                            src={
-                                'https://an-spa.vn/images/slider/foot-massage-5-vi1616990600.jpg'
-                            }
-                        />
-                    </div>
-                    <div className={classes.sliderItem}>
-                        <img
-                            src={
-                                'https://an-spa.vn/images/slider/foot-massage-5-vi1616990600.jpg'
+                                'https://toplist.vn/images/800px/hanie-beauty-nail-amp-eyelash-699506.jpg'
                             }
                         />
                     </div>
@@ -127,7 +113,7 @@ function Home(props) {
                                     <span
                                         style={{ textTransform: 'uppercase' }}
                                     >
-                                        Chào mừng bạn đến với An’s Spa
+                                        Chào mừng bạn đến với Mis Beauty
                                     </span>
                                     <br />
                                     Với các bài massage ứng dụng khí công và day
@@ -136,7 +122,7 @@ function Home(props) {
                                     gia trên 25 năm kinh nghiệm trong ngành,
                                     An’s Spa sẽ đáp ứng đa dạng nhu cầu của bạn
                                     từ thư giãn đến điều trị bệnh lý. Đội ngũ
-                                    của An’s Spa luôn tận tâm, hết lòng vì sự
+                                    của Mis Beauty luôn tận tâm, hết lòng vì sự
                                     hài lòng, sức khoẻ và sắc đẹp của khách
                                     hàng.
                                 </p>
@@ -152,7 +138,7 @@ function Home(props) {
                 <div className={classes.container}>
                     <div className={classes.row}>
                         <div className={classes.heading}>
-                            <h2>Hình ảnh về AN’s Spa</h2>
+                            <h2>Hình ảnh về Mis Beauty</h2>
                         </div>
                     </div>
                 </div>
